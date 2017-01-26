@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:label="قائمة الاجراءات"
+            android:name=".ProcessesListAcitivity"></activity>
+        <activity
+            android:label="أماكن الاجراء"
+            android:name=".PlacesListAcitivity"></activity>
     </application>
 
 </manifest>
