@@ -8,7 +8,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,14 +18,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ProcessesListAcitivity"
             android:label="قائمة الاجراءات"
-            android:name=".ProcessesListAcitivity"></activity>
+            android:screenOrientation="portrait"></activity>
         <activity
+            android:name=".PlacesListAcitivity"
             android:label="أماكن الاجراء"
-            android:name=".PlacesListAcitivity"></activity>
+            android:screenOrientation="portrait"></activity>
         <activity
-            android:label="أماكن الاجراء"
-            android:name=".PlaceInfo"></activity>
+            android:name=".PlaceInfo"
+            android:label="تفاصيل مكان الاجراء"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
