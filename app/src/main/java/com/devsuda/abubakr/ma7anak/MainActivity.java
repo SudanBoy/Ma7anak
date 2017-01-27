@@ -1,13 +1,11 @@
 package com.devsuda.abubakr.ma7anak;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,13 +15,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        getSupportActionBar().setCustomView(R.layout.action_bar);
+
         Button governmentProcessBTN = (Button) findViewById(R.id.governmentProcessBTN);
         governmentProcessBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "إجراء حكومي", Toast.LENGTH_LONG).show();
-
-                Intent processesListAcitivity = new Intent(getApplicationContext(),ProcessesListAcitivity.class);
+                Intent processesListAcitivity = new Intent(getApplicationContext(), ProcessesListAcitivity.class);
                 startActivity(processesListAcitivity);
             }
         });
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         privateProcessBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "تحت الانشاء", Toast.LENGTH_LONG).show();
+                // Todo: create list for possible private processes and their places
             }
         });
 
@@ -41,8 +40,9 @@ public class MainActivity extends AppCompatActivity {
         addRankingBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "تحت الانشاء", Toast.LENGTH_LONG).show();
+                // Todo: allow users to add their own rating
             }
         });
     }
+
 }

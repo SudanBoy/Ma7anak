@@ -21,6 +21,9 @@
         <activity
             android:label="أماكن الاجراء"
             android:name=".PlacesListAcitivity"></activity>
+        <activity
+            android:label="أماكن الاجراء"
+            android:name=".PlaceInfo"></activity>
     </application>
 
 </manifest>
