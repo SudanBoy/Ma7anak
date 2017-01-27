@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 /**
  * Created by Abubakr on 26/01/2017.
@@ -56,12 +55,7 @@ public class PlacesListAcitivity extends AppCompatActivity {
                 int itemPosition = position;
                 String itemValue = (String) listView.getItemAtPosition(position);
 
-                // Show Alert
-                Toast.makeText(getApplicationContext(),
-                        "Position :" + itemPosition + "  ListItem : " + itemValue, Toast.LENGTH_LONG)
-                        .show();
-
-                Intent placeInfo = new Intent(getApplicationContext(), PlaceInfo.class);
+                Intent placeInfo = new Intent(getApplicationContext(), PlaceInfoTabs.class);
                 startActivity(placeInfo);
 
             }

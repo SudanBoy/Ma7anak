@@ -26,7 +26,7 @@
             android:label="أماكن الاجراء"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".PlaceInfo"
+            android:name=".PlaceInfoTabs"
             android:label="تفاصيل مكان الاجراء"
             android:screenOrientation="portrait"></activity>
     </application>

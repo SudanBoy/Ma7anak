@@ -10,10 +10,10 @@ import android.view.ViewGroup;
  * Created by Abubakr on 26/01/2017.
  */
 
-public class TabFragment2 extends Fragment {
+public class ProcessInfoFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.tab_fragment_2, container, false);
+        return inflater.inflate(R.layout.tab_rank_info_fragment, container, false);
     }
 }

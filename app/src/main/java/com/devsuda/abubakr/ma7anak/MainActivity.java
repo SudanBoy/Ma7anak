@@ -36,13 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button addRankingBTN = (Button) findViewById(R.id.addRankingBTN);
-        addRankingBTN.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Todo: allow users to add their own rating
-            }
-        });
     }
 
 }

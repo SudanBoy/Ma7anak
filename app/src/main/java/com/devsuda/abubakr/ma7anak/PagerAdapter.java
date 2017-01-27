@@ -22,16 +22,16 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
 
         switch (position) {
             case 0:
-                TabFragment1 tab1 = new TabFragment1();
+                LocationInfoFragment tab1 = new LocationInfoFragment();
                 return tab1;
             case 1:
-                TabFragment2 tab2 = new TabFragment2();
+                RankInfoFragment tab2 = new RankInfoFragment();
                 return tab2;
             case 2:
-                TabFragment3 tab3 = new TabFragment3();
+                WorkingHoursInfoFragment tab3 = new WorkingHoursInfoFragment();
                 return tab3;
             case 3:
-                TabFragment3 tab4 = new TabFragment3();
+                WorkingHoursInfoFragment tab4 = new WorkingHoursInfoFragment();
                 return tab4;
             default:
                 return null;
