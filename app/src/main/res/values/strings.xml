@@ -1,3 +1,54 @@
 <resources>
-    <string name="app_name">Ma7anak</string>
+    <string name="app_name">بسيطة</string>
+
+    <string-array name="processes">
+        <item>الشيشة</item>
+        <item>جواز سفر</item>
+        <item>رقم وطني</item>
+        <item>بطاقة الرقم الوطني</item>
+        <item>رخصة قيادة</item>
+        <item>ترخيص مركبة</item>
+        <item>كرت سفر</item>
+        <item>شهادة ميلاد</item>
+        <item>تأشيرة خروج</item>
+        <item>وثيقة زواج</item>
+        <item>الجنسية</item>
+    </string-array>
+
+    <string-array name="places">
+        <item>جهاز شئون السودانيين العاملين بالخارج</item>
+        <item>العلاقات البينية</item>
+        <item>السكة الحديد</item>
+        <item>وزارة الخارجية</item>
+        <item>وزارة الداخلية</item>
+        <item>مطار الخرطوم الدولي</item>
+        <item>الحدمة الوطنية</item>
+        <item>ادارة المرور</item>
+        <item>الهيئة العامة</item>
+        <item>ادارة الهجرة</item>
+    </string-array>
+
+    <string-array name="rankDetails">
+        <item>تكلفة الاجراء</item>
+        <item>زمن الاجراء</item>
+        <item>زحمة المواطنين</item>
+        <item>تعامل الموظفين</item>
+        <item>الراحة لكبار السن</item>
+        <item>النظافة</item>
+        <item>التكييف</item>
+        <item>النظام العام</item>
+        <item>تجهيزات المكان</item>
+        <item>سهولة المواصلات</item>
+    </string-array>
+
+    <string-array name="requirements">
+        <item>احضار شهادة سكن</item>
+        <item>شهادة الجامعة الاصلية</item>
+        <item>نسخة من شهادة الجامعة</item>
+        <item>نسخة من شهادة الجامعة</item>
+        <item>الحضور الشخصي</item>
+        <item>عدد 2 صور فوتغرافية</item>
+        <item>التكلفة</item>
+    </string-array>
+
 </resources>
