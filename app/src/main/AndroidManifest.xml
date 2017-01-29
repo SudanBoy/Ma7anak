@@ -29,6 +29,10 @@
             android:name=".PlaceInfoTabs"
             android:label="تفاصيل مكان الاجراء"
             android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ExpandableListAcitivity"
+            android:label="تفاصيل مكان الاجراء"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

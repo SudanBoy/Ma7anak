@@ -29,17 +29,7 @@ public class PlacesListAcitivity extends AppCompatActivity {
         // Get ListView object from xml
         listView = (ListView) findViewById(R.id.list);
 
-
-        // Defined Array values to show in ListView
-        String[] values = new String[]{"Android List View",
-                "Adapter implementation",
-                "Simple List View In Android",
-                "Create List View Android",
-                "Android Example",
-                "List View Source Code",
-                "List View Array Adapter",
-                "Android Example List View"
-        };
+        String[] values = getResources().getStringArray(R.array.places);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 R.layout.places_list_item, R.id.placeNameTv, values);

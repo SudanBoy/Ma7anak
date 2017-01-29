@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        ExpandableListDataPump expandableListDataPump = new ExpandableListDataPump(this);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -22,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
         governmentProcessBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent processesListAcitivity = new Intent(getApplicationContext(), ProcessesListAcitivity.class);
+//                Intent processesListAcitivity = new Intent(getApplicationContext(), ProcessesListAcitivity.class);
+//                startActivity(processesListAcitivity);
+
+                Intent processesListAcitivity = new Intent(getApplicationContext(), ExpandableListAcitivity.class);
                 startActivity(processesListAcitivity);
             }
         });

@@ -39,7 +39,7 @@ public class PlaceInfoTabs extends AppCompatActivity {
                 viewPager.setCurrentItem(tab.getPosition());
 
                 int position = tab.getPosition();
-                switch(position){
+                switch (position) {
                     case 0:
                         break;
                     case 1:
@@ -59,6 +59,33 @@ public class PlaceInfoTabs extends AppCompatActivity {
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+
+                switch (position) {
+                    case 0:
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                }
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
 
             }
         });

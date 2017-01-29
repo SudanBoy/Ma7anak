@@ -28,6 +28,67 @@
         <item>ادارة الهجرة</item>
     </string-array>
 
+    <string-array name="places2">
+        <item>location_2_1</item>
+        <item>location_2_2</item>
+        <item>location_2_3</item>
+    </string-array>
+
+    <string-array name="places3">
+        <item>aaaaa</item>
+        <item>bbbbb</item>
+        <item>ccccc</item>
+    </string-array>
+
+    <string-array name="places4">
+        <item>dddd</item>
+        <item>eeee</item>
+        <item>ffff</item>
+    </string-array>
+
+    <string-array name="places5">
+        <item>gggg</item>
+        <item>hhhh</item>
+        <item>oooo</item>
+    </string-array>
+
+    <string-array name="places6">
+        <item>qqqqq</item>
+        <item>wwww</item>
+        <item>rrrrr</item>
+    </string-array>
+
+    <string-array name="places7">
+        <item>ttttt</item>
+        <item>rrrrr</item>
+        <item>vvvvv</item>
+    </string-array>
+
+    <string-array name="places8">
+        <item>ttttt</item>
+        <item>jjjjj</item>
+        <item>yyyyy</item>
+    </string-array>
+
+    <string-array name="places9">
+        <item>zzzzz</item>
+        <item>xxxx</item>
+        <item>iiiii</item>
+    </string-array>
+
+    <string-array name="places10">
+        <item>ppppp</item>
+        <item>lllll</item>
+        <item>kkkkk</item>
+    </string-array>
+
+    <string-array name="places11">
+        <item>mmmmm</item>
+        <item>nnnnn</item>
+        <item>uuuuu</item>
+    </string-array>
+
+
     <string-array name="rankDetails">
         <item>تكلفة الاجراء</item>
         <item>زمن الاجراء</item>
