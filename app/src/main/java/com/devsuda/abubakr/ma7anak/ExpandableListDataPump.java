@@ -3,7 +3,10 @@ package com.devsuda.abubakr.ma7anak;
 import android.content.Context;
 import android.widget.ArrayAdapter;
 
+import java.text.Collator;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 
@@ -22,13 +25,28 @@ public class ExpandableListDataPump {
     public static HashMap<String, List<String>> getData() {
         HashMap<String, List<String>> expandableListDetail = new HashMap<String, List<String>>();
 
-
         String[] processesValues = context.getResources().getStringArray(R.array.processes);
 
         ArrayAdapter<String> processesAdaptor = new ArrayAdapter<String>(context,
                 R.layout.places_list_item, R.id.placeNameTv, processesValues);
 
+        final Collator col = Collator.getInstance();
+//        processesAdaptor.sort(new Comparator<ApplicationInfo>() {
+//            @Override
+//            public int compare(ApplicationInfo lhs, ApplicationInfo rhs) {
+//                return col.compare(lhs.loadLabel(packageManager),rhs.loadLabel(packageManager));
+//            }
+//        });
+
+        Comparator<String> ALPHABETICAL_ORDER1 = new Comparator<String>() {
+            public int compare(String object1, String object2) {
+                int res = String.CASE_INSENSITIVE_ORDER.compare(object1.toString(), object2.toString());
+                return res;
+            }
+        };
+
         // -----------
+
 
         String[] placesValues = context.getResources().getStringArray(R.array.places);
 
@@ -40,7 +58,10 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor.getItem(i);
             locationsList.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
+
+
 
         // -----------
 
@@ -54,6 +75,7 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor2.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor2.getItem(i);
             locationsList2.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
 
         // -----------
@@ -67,6 +89,7 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor3.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor3.getItem(i);
             locationsList3.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
 
         // -----------
@@ -81,6 +104,7 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor4.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor4.getItem(i);
             locationsList4.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
 
         // -----------
@@ -95,6 +119,7 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor2.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor5.getItem(i);
             locationsList5.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
 
         // -----------
@@ -109,6 +134,7 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor2.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor6.getItem(i);
             locationsList6.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
 
         // -----------
@@ -123,6 +149,7 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor7.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor7.getItem(i);
             locationsList7.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
 
         // -----------
@@ -137,6 +164,7 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor8.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor8.getItem(i);
             locationsList8.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
 
         // -----------
@@ -151,6 +179,7 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor9.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor9.getItem(i);
             locationsList9.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
 
         // -----------
@@ -165,20 +194,7 @@ public class ExpandableListDataPump {
         for (int i = 0; i < locationsAdaptor10.getCount(); i++) {
             placesValuesString = (String) locationsAdaptor10.getItem(i);
             locationsList10.add(placesValuesString);
-        }
-
-        // -----------
-
-        String[] placesValues11 = context.getResources().getStringArray(R.array.places11);
-
-        List<String> locationsList11 = new ArrayList<String>();
-        ArrayAdapter<String> locationsAdaptor11 = new ArrayAdapter<String>(context,
-                R.layout.places_list_item, R.id.placeNameTv, placesValues11);
-
-        String placesValuesString11 = null;
-        for (int i = 0; i < locationsAdaptor11.getCount(); i++) {
-            placesValuesString = (String) locationsAdaptor11.getItem(i);
-            locationsList11.add(placesValuesString);
+            Collections.sort(locationsList,ALPHABETICAL_ORDER1);
         }
 
         // -----------
@@ -194,7 +210,6 @@ public class ExpandableListDataPump {
         allLocationLists.add(locationsList8);
         allLocationLists.add(locationsList9);
         allLocationLists.add(locationsList10);
-        allLocationLists.add(locationsList11);
 
 
         for (int i = 0; i < processesAdaptor.getCount(); i++) {

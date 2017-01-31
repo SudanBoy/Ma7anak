@@ -2,9 +2,8 @@
     <string name="app_name">بسيطة</string>
 
     <string-array name="processes">
-        <item>الشيشة</item>
         <item>جواز سفر</item>
-        <item>رقم وطني</item>
+        <item>شهادة الرقم الوطني</item>
         <item>بطاقة الرقم الوطني</item>
         <item>رخصة قيادة</item>
         <item>ترخيص مركبة</item>
@@ -12,7 +11,7 @@
         <item>شهادة ميلاد</item>
         <item>تأشيرة خروج</item>
         <item>وثيقة زواج</item>
-        <item>الجنسية</item>
+        <item>بطاقة الخدمة الوطنية</item>
     </string-array>
 
     <string-array name="places">
@@ -32,60 +31,117 @@
         <item>location_2_1</item>
         <item>location_2_2</item>
         <item>location_2_3</item>
+        <item>location_2_4</item>
+        <item>location_2_5</item>
+        <item>location_2_6</item>
+        <item>location_2_7</item>
+        <item>location_2_8</item>
+        <item>location_2_9</item>
+        <item>location_2_10</item>
     </string-array>
 
     <string-array name="places3">
-        <item>aaaaa</item>
-        <item>bbbbb</item>
-        <item>ccccc</item>
+        <item>location_3_1</item>
+        <item>location_3_2</item>
+        <item>location_3_3</item>
+        <item>location_3_4</item>
+        <item>location_3_5</item>
+        <item>location_3_6</item>
+        <item>location_3_7</item>
+        <item>location_3_8</item>
+        <item>location_3_9</item>
+        <item>location_3_10</item>
     </string-array>
 
     <string-array name="places4">
-        <item>dddd</item>
-        <item>eeee</item>
-        <item>ffff</item>
+        <item>location_4_1</item>
+        <item>location_4_2</item>
+        <item>location_4_3</item>
+        <item>location_4_4</item>
+        <item>location_4_5</item>
+        <item>location_4_6</item>
+        <item>location_4_7</item>
+        <item>location_4_8</item>
+        <item>location_4_9</item>
+        <item>location_4_10</item>
     </string-array>
 
     <string-array name="places5">
-        <item>gggg</item>
-        <item>hhhh</item>
-        <item>oooo</item>
+        <item>location_5_1</item>
+        <item>location_5_2</item>
+        <item>location_5_3</item>
+        <item>location_5_4</item>
+        <item>location_5_5</item>
+        <item>location_5_6</item>
+        <item>location_5_7</item>
+        <item>location_5_8</item>
+        <item>location_5_9</item>
+        <item>location_5_10</item>
     </string-array>
 
     <string-array name="places6">
-        <item>qqqqq</item>
-        <item>wwww</item>
-        <item>rrrrr</item>
+        <item>location_6_1</item>
+        <item>location_6_2</item>
+        <item>location_6_3</item>
+        <item>location_6_4</item>
+        <item>location_6_5</item>
+        <item>location_6_6</item>
+        <item>location_6_7</item>
+        <item>location_6_8</item>
+        <item>location_6_9</item>
+        <item>location_6_10</item>
     </string-array>
 
     <string-array name="places7">
-        <item>ttttt</item>
-        <item>rrrrr</item>
-        <item>vvvvv</item>
+        <item>location_7_1</item>
+        <item>location_7_2</item>
+        <item>location_7_3</item>
+        <item>location_7_4</item>
+        <item>location_7_5</item>
+        <item>location_7_6</item>
+        <item>location_7_7</item>
+        <item>location_7_8</item>
+        <item>location_7_9</item>
+        <item>location_7_10</item>
     </string-array>
 
     <string-array name="places8">
-        <item>ttttt</item>
-        <item>jjjjj</item>
-        <item>yyyyy</item>
+        <item>location_8_1</item>
+        <item>location_8_2</item>
+        <item>location_8_3</item>
+        <item>location_8_4</item>
+        <item>location_8_5</item>
+        <item>location_8_6</item>
+        <item>location_8_7</item>
+        <item>location_8_8</item>
+        <item>location_8_9</item>
+        <item>location_8_10</item>
     </string-array>
 
     <string-array name="places9">
-        <item>zzzzz</item>
-        <item>xxxx</item>
-        <item>iiiii</item>
+        <item>location_9_1</item>
+        <item>location_9_2</item>
+        <item>location_9_3</item>
+        <item>location_9_4</item>
+        <item>location_9_5</item>
+        <item>location_9_6</item>
+        <item>location_9_7</item>
+        <item>location_9_8</item>
+        <item>location_9_9</item>
+        <item>location_9_10</item>
     </string-array>
 
     <string-array name="places10">
-        <item>ppppp</item>
-        <item>lllll</item>
-        <item>kkkkk</item>
-    </string-array>
-
-    <string-array name="places11">
-        <item>mmmmm</item>
-        <item>nnnnn</item>
-        <item>uuuuu</item>
+        <item>location_10_1</item>
+        <item>location_10_2</item>
+        <item>location_10_3</item>
+        <item>location_10_4</item>
+        <item>location_10_5</item>
+        <item>location_10_6</item>
+        <item>location_10_7</item>
+        <item>location_10_8</item>
+        <item>location_10_9</item>
+        <item>location_10_10</item>
     </string-array>
 
 
